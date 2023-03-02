@@ -18,6 +18,12 @@ public class Lab {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        Cookie c = new Cookie();
+
+        return c;
+    }
+
+    public class Cookie {
+
     }
 }
